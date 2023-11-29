@@ -1,10 +1,10 @@
 #include <iostream>
-#include <compare>
- 
+#include <fstream> // getline function doesnt work without it
 // input and output
 int addNumers(int A, int B){
     int sum = A + B;
-    std::cout << "This is the summation: " << sum << std::endl;
+    std::cout << "This is the summation: " << std::endl;
+    return sum;
 };
 
 int main(int argc, char **argv){
@@ -17,10 +17,10 @@ int main(int argc, char **argv){
     std::cout << "The Summation is: " << addNumers(value1, value2) << std::endl;
 
     int age;
-    int fullName;
-    std::cout << "Enter your Age:" << std::endl;
+    std::string fullName;
+    std::cout << "Enter youEr Age:" << std::endl;
+    std::getline(std::cin, fullName);  //THIS Line doesnt work properly!!!!
     std::cin >> age;
-    std::getline(std::cin, fullName);
     std::cout << "Hello " << fullName << " you are " << age << " years old!" << std::endl;
 
     std::cerr << "Error Message" << std::endl;
