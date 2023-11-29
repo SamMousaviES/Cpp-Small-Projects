@@ -14,6 +14,16 @@ int main(int argc, char **argv){
     std::cin >> value1;
     std::cout << "Input your first number: " << std::endl;
     std::cin >> value2;
-    addNumers(value1, value2);
+    std::cout << "The Summation is: " << addNumers(value1, value2) << std::endl;
+
+    int age;
+    int fullName;
+    std::cout << "Enter your Age:" << std::endl;
+    std::cin >> age;
+    std::getline(std::cin, fullName);
+    std::cout << "Hello " << fullName << " you are " << age << " years old!" << std::endl;
+
+    std::cerr << "Error Message" << std::endl;
+    std::clog << "Log Message" << std::endl;
     return 0;
 }
