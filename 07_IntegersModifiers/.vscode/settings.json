@@ -1,9 +1,6 @@
 {
     "files.associations": {
-        "iostream": "cpp",
-        "algorithm": "cpp",
         "cmath": "cpp",
-        "compare": "cpp",
         "cstddef": "cpp",
         "cstdint": "cpp",
         "cstdio": "cpp",
@@ -14,6 +11,7 @@
         "initializer_list": "cpp",
         "ios": "cpp",
         "iosfwd": "cpp",
+        "iostream": "cpp",
         "istream": "cpp",
         "limits": "cpp",
         "memory": "cpp",
@@ -36,10 +34,6 @@
         "xstring": "cpp",
         "xtr1common": "cpp",
         "xutility": "cpp",
-        "fstream": "cpp",
-        "iomanip": "cpp",
-        "ctime": "cpp",
-        "xlocmon": "cpp",
-        "xloctime": "cpp"
+        "compare": "cpp"
     }
 }
