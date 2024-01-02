@@ -15,7 +15,7 @@ int main() {
     std::cout << "for Decrement" << std::endl;
     // NOTE
     std::cout << valueM-- << std::endl; //print 10
-    std::cout << valueM << std::endl; //print 9
+    std::cout << "for Decrement inplace" << valueM << std::endl; //print 9
 
     valueM = 10;
     std::cout << --valueM << std::endl;//print 9

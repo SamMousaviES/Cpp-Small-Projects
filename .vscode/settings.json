@@ -80,6 +80,9 @@
         "thread": "cpp",
         "cfenv": "cpp",
         "cinttypes": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "coroutine": "cpp",
+        "forward_list": "cpp",
+        "ranges": "cpp"
     }
 }
