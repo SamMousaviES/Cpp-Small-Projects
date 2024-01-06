@@ -63,4 +63,48 @@ int main(){
     }
     std::cout << "Moving on." << std::endl;
     return 0;
+
+
+
+
+    std::cout << "Use several case with one outcome:" << std::endl;
+
+     switch (tool)
+    {
+        case Pen:
+        case Spray:
+        case Rectangle:
+        case Circle:
+        case Star:
+        case Elipse:
+        case Pencil:
+        {
+            std::cout << "a tool is Selected." << std::endl;
+        }
+        break;
+    default:
+        {
+        std::cout << "Selected tool is not defiend." << std::endl;
+        }
+        break;
+    }
+    std::cout << "Moving on." << std::endl;
+
+
+    std::cout << "Reminder: string is not possible as a Case:" << std::endl;
+    std::string name {"John!"};
+    // switch (tool)
+    // {
+    //     case name:
+    //     {
+    //         std::cout << "a tool is Selected." << std::endl;
+    //     }
+    //     break;
+    // default:
+    //     {
+    //     std::cout << "Selected tool is not defiend." << std::endl;
+    //     }
+    //     break;
+    // }
+    // std::cout << "Moving on." << std::endl;
 }
